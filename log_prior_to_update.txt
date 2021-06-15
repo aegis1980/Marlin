@@ -1,0 +1,41 @@
+Changing monitoring state from "Offline" to "Detecting serial connection"
+Performing autodetection with 1 port/baudrate candidates: /dev/ttyACM0@250000
+Trying port /dev/ttyACM0, baudrate 250000
+Connecting to port /dev/ttyACM0, baudrate 250000
+Handshake attempt #1 with timeout 2.0s
+Connected to: Serial<id=0x70975a30, open=True>(port='/dev/ttyACM0', baudrate=250000, bytesize=8, parity='N', stopbits=1, timeout=2.0, xonxoff=False, rtscts=False, dsrdtr=False), starting monitor
+Send: N0 M110 N0*125
+Recv: start
+Changing monitoring state from "Detecting serial connection" to "Operational"
+Send: N0 M110 N0*125
+Recv: echo: External Reset
+Recv: Marlin 1.1.0-RC7
+Recv: echo: Last Updated: 2016-07-26 12:00 | Author: (Jon, i3 with octoprint and ATX R3 JULY 2017)
+Recv: Compiled: Aug  8 2017
+Recv: echo: Free Memory: 3660  PlannerBufferBytes: 1232
+Recv: echo:Hardcoded Default Settings Loaded
+Recv: echo:Steps per unit:
+Recv: echo:  M92 X80.00 Y80.00 Z4000.00 E455.00
+Recv: echo:Maximum feedrates (mm/s):
+Recv: echo:  M203 X300.00 Y300.00 Z5.00 E25.00
+Recv: echo:Maximum Acceleration (mm/s2):
+Recv: echo:  M201 X3000 Y3000 Z100 E10000
+Recv: echo:Accelerations: P=printing, R=retract and T=travel
+Recv: echo:  M204 P3000.00 R3000.00 T3000.00
+Recv: echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+Recv: echo:  M205 S0.00 T0.00 B20000 X20.00 Z0.40 E5.00
+Recv: echo:Home offset (mm)
+Recv: echo:  M206 X0.00 Y0.00 Z0.00
+Recv: echo:Material heatup parameters:
+Recv: echo:  M145 S0 H180 B70 F0
+Recv: echo:  M145 S1 H240 B110 F0
+Recv: echo:PID settings:
+Recv: echo:  M301 P41.60 I2.39 D180.95
+Recv: echo:Filament settings: Disabled
+Recv: echo:  M200 D3.00
+Recv: echo:  M200 D0
+Recv: echo:SD init fail
+Recv: ok
+Send: N1 M115*39
+Recv: FIRMWARE_NAME:Marlin 1.1.0-RC7 (Github) SOURCE_CODE_URL:https://github.com/MarlinFirmware/Marlin PROTOCOL_VERSION:1.0 MACHINE_TYPE:Jons i3 EXTRUDER_COUNT:1 UUID:28877c49-5233-41f4-8471-b8d4c25531c7
+Recv: ok
